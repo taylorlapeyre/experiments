@@ -1,0 +1,74 @@
+/*
+Theme Name: taylorlapeyre-bootstrap
+Theme URI: none
+Description: The theme for Taylor Lapeyre's website using Twitter's Bootstrap
+Author: Taylor Lapeyre
+Author URI: http://taylorlapeyre.com
+Version: 1.0
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu (optional)
+
+License:
+License URI:
+
+*/
+
+@import url('css/bootstrap.min.css');
+@import url('css/bootstrap-responsive.min.css');
+
+body {
+  margin-top: 20px !important;
+}
+
+header {
+  text-align: center !important;
+}
+
+header img {
+  border: 0;
+  -webkit-box-shadow: 0px 2px 4px 1px #5C5C5C;
+  box-shadow: 0px 2px 4px 1px #5C5C5C;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* When content overlaps with nav items.. */
+@media only screen and (max-width: 767px) {
+  .nav {
+    border-bottom: 1px solid #EEE;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+}
+
+
+
+article {
+  margin: 30px 0 30px 0 !important;
+}
+
+article h4 {
+  margin-bottom: 10px !important;
+}
+
+footer {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.span6, .span7 {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+#post h3 {
+  text-align: center;
+}
+
+.lead {
+  text-align: center;
+  padding-bottom: 20px !important;
+}

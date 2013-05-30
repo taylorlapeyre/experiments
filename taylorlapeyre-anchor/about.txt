@@ -1,0 +1,5 @@
+Theme name:    taylorlapeyre
+Description:   A Theme based on Twitter Bootstrap
+Author name:   Taylor Lapeyre
+Author site:   http://taylorlapeyre.me
+License:       WTFPL (http://sam.zoy.org/wtfpl/COPYING)
