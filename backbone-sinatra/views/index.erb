@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Sinatra + Backbone App</title>
+	</head>
+	<body>
+		<script type="text/template" id="snippet-template">
+			<h3><%%= title %></h3>
+			<p><%%= description %></p>
+			<p>Language: <%%= language_id %></p>
+			<p>Content: <%%= content %></p>
+			<p>Score: <%%= score %></p>
+			<a href="" class="upvote">Upvote</a><br>
+			<a href="" class="downvote">Downvote</a>
+		</script>
+
+
+		<header class="site-header">
+			<h1>Sinatra + Backbone App</h1>
+		</header>
+		<div class="snippets"></div>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://underscorejs.org/underscore-min.js"></script>
+		<script src="http://backbonejs.org/backbone-min.js"></script>
+		<script src="/js/models/language.js"></script>
+		<script src="/js/collections/languages.js"></script>
+		<script src="/js/models/snippet.js"></script>
+		<script src="/js/views/snippet-view.js"></script>
+		<script src="/js/collections/snippets.js"></script>
+		<script>
+			$(function() {
+				app.snippets.add(<%= @snippets %>);
+				app.languages.add(<%= @languages %>);
+			});
+		</script>
+	</body>
+</html>
