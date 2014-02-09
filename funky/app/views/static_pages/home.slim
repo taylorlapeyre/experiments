@@ -1,0 +1,13 @@
+div.greeting
+  h1
+    | Funky lets you
+    em  share
+    |,
+    em  discover
+    |, and
+    em  keep track
+    |  of code snippets.
+  p Take a look at the most recent snippets and see what you can learn.
+
+- @snippets.each do |snippet|
+  = render "shared/snippet", snippet: snippet

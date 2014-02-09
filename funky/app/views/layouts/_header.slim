@@ -1,0 +1,14 @@
+header.site-header
+  h1 = link_to "Funky", root_url
+  nav
+    = link_to "View Snippets", snippets_url
+    = link_to "View Languages", languages_url
+    - if signed_in?
+      = link_to "Profile", current_user
+      = link_to "Sign Out", signout_path, method: "delete"
+    - else
+      = link_to "Sign Up", signup_path
+      = link_to "Sign In", signin_path
+
+- flash.each do |key, value|
+  div class="alert alert-#{key}" = value

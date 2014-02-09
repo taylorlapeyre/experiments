@@ -1,0 +1,13 @@
+div.snippet
+  - if !request.url.include? "users"
+    p style="float: right"
+      = gravatar_for snippet.user
+      = " "
+      = link_to snippet.user.username, snippet.user
+
+  h3 = link_to snippet.title, snippet
+  small: em = snippet.language.name
+  p = snippet.description
+  p = link_to "Original", snippet.source_link unless snippet.source_link.empty?
+  pre: code class="#{snippet.language.name.downcase}"
+      = snippet.content

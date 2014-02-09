@@ -1,0 +1,7 @@
+- unless Language.all.empty?
+	a style="float: right" href="/snippets/new" Create a code snippet
+
+h2 All Snippets
+
+- @snippets.each do |snippet|
+  = render "shared/snippet", snippet: snippet

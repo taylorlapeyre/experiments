@@ -1,0 +1,16 @@
+div.sign-up
+  h2 Edit Profile
+
+  = form_for(current_user) do |f|
+    = render 'shared/error_messages', object: f.object
+
+    = f.label :username
+    = f.text_field :username
+    br
+    = f.label :email
+    = f.email_field :email
+    br
+    = f.label :password
+    = f.password_field :password
+    br
+    = f.submit "Update Profile"

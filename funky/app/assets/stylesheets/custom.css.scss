@@ -1,0 +1,100 @@
+$green: #bd2c00;
+
+body {
+  width: 70%;
+  margin: 0 auto;
+  color: #333;
+  font-size: 100%;
+  font-family: sans-serif;
+  font-weight: 200;
+  text-rendering: optimizeLegibility;
+
+  a {
+    color: $green;
+    text-decoration: none;
+  }
+
+  nav {
+    float: right;
+    a {
+      padding: 0 10px;
+      text-decoration: none;
+      color: $green;
+    }
+  }
+
+  h2 {
+    color: $green;
+  }
+
+  code, pre {
+    overflow: auto;
+    font-family: "Consolas", monospace;
+    font-size: .95em;
+  }
+
+  pre {
+    border: 1px solid #DDD;
+  }
+
+  form {
+    input, label {
+      display: block;
+    }
+  }
+
+  .greeting {
+    margin-bottom: 200px;
+    h1 {
+      font-weight: 100 !important;
+      font-size: 1.5em;
+    }
+    p { margin-top: 20px; }
+  }
+
+  .snippet {
+    background-color: #EEE;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+    img { width: 30px; height: 30px; }
+  }
+
+  .site-header {
+    height: 150px;
+
+    h1 a {
+      color: $green;
+      text-decoration: none;
+      font-size: 1.5em;
+      font-family: "Galindo", sans-serif;
+      font-weight: 200;
+    }
+  }
+
+  .sign-up {
+    width: 400px;
+    margin: 0 auto;
+    padding: 1px 20px;
+    background-color: #EEE;
+    border-radius: 5px;
+    h2 { text-align: center; }
+  }
+
+  .profile {
+    h1, p {
+      padding: 0;
+      margin: 0;
+    }
+
+    .user-snippets h3 {
+      text-align: center;
+    }
+  }
+
+  .snippet-code-form {
+    font-family: "Consolas", monospace;
+    font-size: 1.1em;
+    width: 700px;
+  }
+}

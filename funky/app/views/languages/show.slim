@@ -1,0 +1,4 @@
+h2 All #{@language.name} Snippets
+
+- @language.snippets.each do |snippet|
+  = render "shared/snippet", snippet: snippet

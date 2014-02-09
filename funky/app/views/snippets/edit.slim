@@ -1,0 +1,24 @@
+div.new-snippet
+  h1 Edit Snippet
+  = form_for(@snippet) do |f|
+    = render 'shared/error_messages', object: f.object
+
+    br
+    = f.label :title
+    = f.text_field :title
+
+    = f.label :language_id
+    = select_tag "snippet[language_id]", \
+                  options_for_select(@languages.map { |n| [n.name, n.id] })
+    br
+    = f.label :source_link, "Link to original source"
+    = f.text_field :source_link, placeholder: "Optional"
+    br
+    = f.label :description
+    = f.text_area :description, placeholder: "Optional"
+    br
+    = f.label :content, "Code"
+    = f.text_area :content, class: "snippet-code-form"
+    br
+
+    = f.submit "Update Snippet"

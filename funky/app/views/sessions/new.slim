@@ -1,0 +1,12 @@
+div.sign-up
+  h2 Sign In
+
+  = form_for(:session, url: sessions_path) do |f|
+    br
+    = f.label :email
+    = f.text_field :email
+    br
+    = f.label :password
+    = f.password_field :password
+    br
+    = f.submit "Sign In"
