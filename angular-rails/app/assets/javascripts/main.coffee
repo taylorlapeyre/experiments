@@ -9,6 +9,9 @@
     .when '/products/new',
       templateUrl: '/templates/products/new.html'
       controller: 'ProductsNewController'
+    .when '/products/:id/edit',
+      templateUrl: '/templates/products/edit.html'
+      controller: 'ProductsEditController'
     .when '/products/:id',
       templateUrl: '/templates/products/show.html'
       controller: 'ProductsShowController'

@@ -18,6 +18,15 @@ class Api::ProductsController < ApplicationController
     end
   end
 
+  def update
+    @product = Product.find(params[:id])
+    if @product.update product_params
+      head :no_content
+    else
+      status :unprocessable_entity
+    end
+  end
+
   private
     def product_params
       params.require(:product).permit(:name)
