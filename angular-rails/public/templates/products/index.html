@@ -1,0 +1,7 @@
+<h1>Products#index</h1>
+
+<ul>
+  <li ng-repeat="product in products">
+    <a ng-click="viewProduct(product.id)">{{ product.id }} - {{ product.name }}</a>
+  </li>
+</ul>
