@@ -8,9 +8,9 @@ This application shows how to combine [Angular.js][ng] and [Rails][rails] into o
 
 #### Points of Interest
 
-- Angular controllers live in `app/assets/javascripts/angular/controllers`
+- Angular modules live in `app/assets/javascripts/angular`
 - Angular templates (views) live in `public/templates`
-- Angular routes live in `app/assets/javascripts/main.coffee`
+- Angular routes live in the root files of each angular module
 - Rails api endpoints live in `app/controllers/api`
 
 [ng]: http://angularjs.org/
