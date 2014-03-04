@@ -6,3 +6,11 @@
 # and importing the other modules that we're using. "ngRoute" is a module
 # provided by angular to enable routing.
 @angularapp = angular.module 'angularapp', ['ngRoute', 'products']
+
+# In leu of any basic 'pages' module for showing a home page, we'll just
+# redirect to /products when we hit root. Normally only error pages, etc.
+# would be routed here.
+@angularapp.config ($routeProvider) ->
+  $routeProvider
+    .when '/',
+      redirectTo: "/products"
