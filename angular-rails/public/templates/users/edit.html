@@ -1,0 +1,14 @@
+<h1>Users#edit</h1>
+
+<h2>Please fill in the following information:</h2>
+
+<input type="text" ng-model="user.username" placeholder="Username">
+<input type="email" ng-model="user.email" placeholder="Email">
+<input type="password" ng-model="user.password" placeholder="Password">
+<input type="password" ng-model="user.password_confirmation" placeholder="Password Confirmation">
+
+
+<button ng-click="updateUser()">Update Account</button>
+<div ng-show="messages.length" ng-repeat="message in messages">
+  {{ message }}
+</div>

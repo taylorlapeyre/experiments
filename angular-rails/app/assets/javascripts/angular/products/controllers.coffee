@@ -4,7 +4,7 @@
 
 # Here we define the products controllers that we specified in our routes.
 @products.controller
-  Index: ($scope, $location, $http) ->
+  ProductsIndex: ($scope, $location, $http) ->
     $scope.products = []
     $http.get('/api/products').success (data) ->
       $scope.products = data
@@ -12,7 +12,7 @@
     $scope.viewProduct = (id) ->
       $location.url "/products/#{id}"
 
-  Show: ($scope, $http, $location, $routeParams) ->
+  ProductsShow: ($scope, $http, $location, $routeParams) ->
     $http.get("/api/products/#{$routeParams.id}").success (data) ->
       $scope.product = data
 
@@ -20,7 +20,7 @@
       $http.delete("/api/products/#{$routeParams.id}").success (data) ->
         $location.url '/products'
 
-  New: ($scope, $location, $http) ->
+  ProductsNew: ($scope, $location, $http) ->
     $scope.createProduct = ->
       $http.post('/api/products', {product: $scope.product})
         .success (data) ->
@@ -28,7 +28,7 @@
         .error (data) ->
           $scope.messages = data
 
-  Edit: ($scope, $location, $http, $routeParams) ->
+  ProductsEdit: ($scope, $location, $http, $routeParams) ->
     $http.get("/api/products/#{$routeParams.id}").success (data) ->
       $scope.product = data
 

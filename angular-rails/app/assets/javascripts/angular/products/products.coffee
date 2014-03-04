@@ -7,13 +7,13 @@
   $routeProvider
     .when '/products',
       templateUrl: '/templates/products/index.html'
-      controller: 'Index'
+      controller: 'ProductsIndex'
     .when '/products/new',
       templateUrl: '/templates/products/new.html'
-      controller: 'New'
+      controller: 'ProductsNew'
     .when '/products/:id/edit',
       templateUrl: '/templates/products/edit.html'
-      controller: 'Edit'
+      controller: 'ProductsEdit'
     .when '/products/:id',
       templateUrl: '/templates/products/show.html'
-      controller: 'Show'
+      controller: 'ProductsShow'
