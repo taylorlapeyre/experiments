@@ -12,18 +12,19 @@ class Api::ProductsController < ApplicationController
   def create
     @product = Product.new(product_params)
     if @product.save
-      head :no_content
+      render json: @product
     else
-      status :unprocessable_entity
+      render json: @product.errors.full_messages, status: :unprocessable_entity
     end
   end
 
   def update
     @product = Product.find(params[:id])
     if @product.update product_params
-      head :no_content
+      render json: @product
     else
-      status :unprocessable_entity
+      status
+      render json: @product.errors.full_messages, status: :unprocessable_entity
     end
   end
 

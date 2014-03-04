@@ -4,3 +4,6 @@
 
 <input type="text" ng-model="product.name" placeholder="Product Name">
 <button ng-click="createProduct()">Add Product</button>
+<div ng-show="messages.length" ng-repeat="message in messages">
+  {{ message }}
+</div>
