@@ -1,0 +1,22 @@
+.cell {
+  padding: 10px;
+  display: block;
+}
+
+.cell.alive-true {
+  background-color: #333;
+}
+
+.cell.alive-false {
+  background-color: #eee;
+}
+
+.world table {
+  padding: 0;
+  border: 1px solid #2f4f4f;
+}
+
+.world td {
+  padding: 0;
+  border: 2px solid #2f4f4f;
+}
