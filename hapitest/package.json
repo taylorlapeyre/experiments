@@ -1,0 +1,17 @@
+{
+  "name": "hapitest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Taylor Lapeyre",
+  "license": "MIT",
+  "dependencies": {
+    "good": "^2.2.3",
+    "handlebars": "^2.0.0",
+    "hapi": "^6.7.1",
+    "mongoose": "^3.8.15"
+  }
+}
