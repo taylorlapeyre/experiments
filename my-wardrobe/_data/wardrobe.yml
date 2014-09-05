@@ -1,0 +1,69 @@
+- section_name: 'Collared Shirts'
+  intro: 'These are the shirts that I wear every day. They need to be durable. They need to be cheap. I expect a lot from them, and I do not make many comprimises.'
+  items:
+    - name: 'Uniqlo Slim Fit Oxford'
+      image: 'http://uniqlo.scene7.com/is/image/UNIQLO/goods_01_088587?$pdp-medium$'
+    - name: 'Uniqlo Slim Fit Oxford'
+      image: 'http://uniqlo.scene7.com/is/image/UNIQLO/goods_01_088587?$pdp-medium$'
+    - name: 'Uniqlo Slim Fit Oxford'
+      image: 'http://uniqlo.scene7.com/is/image/UNIQLO/goods_01_088587?$pdp-medium$'
+    - name: "Gant Rugger Jon's Oxford"
+      image: 'http://i.imgur.com/1ccvoJR.jpg'
+
+- section_name: 'Other Shirts'
+  intro: 'The shirts that I wear on the weekends, or when I want to be active. Simplicity is key. They need to fit very well.'
+  items:
+    - name: 'Everlane Cotton Crew'
+      image: 'https://everlane.imgix.net/i/8ddc1291_7ab0.jpg?w=442&h=442&q=65&dpr=1'
+    - name: 'Everlane Cotton Crew'
+      image: 'https://everlane-2.imgix.net/i/02efeed2_230c.jpg?w=442&h=442&q=65&dpr=1'
+    - name: 'Everlane Cotton Crew'
+      image: 'https://everlane-2.imgix.net/i/24a80a40_6a55.jpg?w=442&h=442&q=65&dpr=1'
+    - name: 'Everlane Cotton Crew'
+      image: 'https://everlane-2.imgix.net/i/9129257a_b7df.jpg?w=442&h=442&q=65&dpr=1'
+
+- section_name: 'Outerwear'
+  intro: "The items that make me comfortable. They are durable, weathered, loved, and are not seasonal. They are likely expensive, and I'm okay with that."
+  items:
+    - name: 'Barracuda G9 Harrington Jacket'
+      image: 'http://demandware.edgesuite.net/sits_pod23/dw/image/v2/AAGA_PRD/on/demandware.static/Sites-WPBAWO-US-Site/Sites-07/default/v1402050394192/images/zoom/BRCPS0001BCNY1_300_1.jpg?sw=500&sh=500'
+    - name: 'Wallace & Barnes Skiff Jacket'
+      image: 'https://s7.jcrew.com/is/image/jcrew/03355_BK0001?$pdp_fs418$'
+    - name: 'Uniqlo Extra Fine Merino Sweater'
+      image: 'http://uniqlo.scene7.com/is/image/UNIQLO/goods_08_078684?$pdp-medium$'
+    - name: 'Reigning Champ Crew Neck'
+      image: 'http://cdn.shopify.com/s/files/1/0167/1144/products/RC_3207_HGRY_1024x1024.jpg?v=1345577695'
+
+- section_name: 'Pants'
+  intro: 'My pants are workhorses. Because I wear them daily, I like to see them grow with me. They are also likely very expensive.'
+  items:
+    - name: 'Unis Gio'
+      image: 'http://cdn.shopify.com/s/files/1/0035/1192/products/s14_gio_pacific_01_large.jpg?v=1394141667'
+    - name: 'Rogue Territory Stanton'
+      image: 'http://www.rogueterritory.com/wp-content/uploads/2012/07/RogueTerritory_Stanton14oz_front-432x604.jpg'
+    - name: 'Unis Gio'
+      image: 'http://cdn.shopify.com/s/files/1/0035/1192/products/Gio_VK_front_large.jpg?v=1360797199'
+
+- section_name: 'Shoes'
+  intro: 'My shoes are unlikely to change much over time. I care about them, but I work them into the ground until they need to be replaced. I get excited when I get to replace shoes.'
+  items:
+    - name: 'Nike Lunar Glide 4'
+      image: 'http://images.footlocker.com/pi/99395010/zoom/nike-lunarglide+-5-womens'
+    - name: 'Common Projects Achilles Low'
+      image: 'http://images.cdn.bigcartel.com/bigcartel/product_images/108119961/max_h-1000+max_w-1000/COMMON_PROJECTS_ACHILLES_LOW_GREY-A.jpg'
+    - name: "Clark's Desert Boots"
+      image: 'http://www.careofcarl.com/bilder/artiklar/zoom/10948011r_1.jpg'
+
+- section_name: 'Accessories'
+  intro: 'Fun things. Likely to change.'
+  items:
+    - name: 'Everlane Twill Snap Backpack'
+      image: 'https://everlane-2.imgix.net/i/f3ef2ac4_5b73.jpg?w=442&h=442&q=65&dpr=1'
+    - name: 'Maui Jim Guardrails'
+      image: 'http://www.d-spec.co.in/image/cache/data/Maui_Jim/Guardrails2-1000x1000.jpg'
+    - name: "Mondaine Automatic"
+      image: 'http://www.shadestation.co.uk/media/thumbs/800x800/media/product_images/Mondaine-A132-30348-11SBBfw800fh800.png'
+    - name: 'Supr Wallet'
+      image: 'https://touchofmodern.insnw.net/products/000/049/033/TOM_SUPR_SLIM_newblack_image_medium.jpg'
+    - name: 'Corter Leather Bottle Hook'
+      image: 'http://cdn.needsupply.com/media/catalog/product/cache/1/image/460x590/e9607dc71bc010050ca2ae6f644b84c1/b/o/bottlehook_hooksilver1.jpg'

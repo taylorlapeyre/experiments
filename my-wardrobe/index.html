@@ -1,0 +1,28 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Taylor Lapeyre's Wardrobe</h1>
+    </header>
+
+    {% for clothing_section in site.data.wardrobe %}
+      <div class="clothing-section">
+        <h2>{{ clothing_section.section_name }}</h2>
+        <p>{{ clothing_section.intro }}</p>
+        {% for item in clothing_section.items %}
+          <div class="item">
+            <h3>{{ item.name }}</h3>
+            <img src="{{ item.image }}">
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </body>
+</html>
