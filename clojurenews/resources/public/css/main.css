@@ -1,0 +1,53 @@
+:root {
+  font-family: 'Verdana';
+  font-size: 13px;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main-header {
+  height: 25px;
+  font-size: 13px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+
+.main-header h1 {
+  font-size: 13px;
+  display: inline;
+  padding: 0 10px;
+}
+
+.main-header img {
+  position: relative;
+  top: 4px;
+}
+
+.story p {
+  font-size: 9px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin: 5px 0;
+  padding: 0 5px;
+}
+
+.story-header h2 {
+  margin-bottom: 0;
+}
+
+.story-header h3 {
+  font-size: 13px;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.story-header a {
+  color: #000;
+  text-decoration: none;
+}
