@@ -1,2 +1,3 @@
-This is a collection of different experiments, mainly for my personal website
+### Experiments!
 
+One day I relaized I had too many repositories, so I made this. All of these experiments or webstes are retired.
