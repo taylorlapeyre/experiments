@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How busy is Dolores Park?</title>
+  </head>
+  <body>
+    <header>
+      <h1>How busy is Dolores Park right now?</h1>
+    </header>
+
+    <p>
+      We found <%= count %> tweets claiming to be at Dolores Park
+      in the last <%= interval %> seconds. Therefore, we think that:
+    </p>
+
+    <h2>
+      <% if (count >= 3) { %>
+        Dolores Park is very busy.
+      <% } else if (count == 2) { %>
+        Dolores Park is busy.
+      <% } else if (count == 1) { %>
+        Dolores Park is kind of busy.
+      <% } else { %>
+        Dolores Park is pretty quiet.
+      <% } %>
+    </h2>
+
+  </body>
+</html>
