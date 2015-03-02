@@ -1,0 +1,61 @@
+body {
+	width: 80%;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+header {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Coming Soon', inherit;
+}
+
+header h1 {
+	color: #D4170D;
+	font-size: 2.5em;
+	display: inline;
+	position: relative;
+	top: -30px;
+}
+
+header h1 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.sidebar {
+	width: 20%;
+	float: left;
+	clear: both;
+}
+
+/* Small Displays */
+@media only screen and (max-width: 760px), only screen and (max-device-width: 760px) {
+	.sidebar {
+		float: none;
+	  margin: 0 auto;
+	  width: 90% !important;
+	}
+
+  .main {
+  	float: none;
+    margin: 0 auto;
+    width: 90% !important;
+  }
+}
+
+.sidebar ul {
+	list-style: none;
+}
+
+.sidebar ul li {
+	margin: 5px 0;
+}
+
+.main {
+	width: 80%;
+	float: left;
+}

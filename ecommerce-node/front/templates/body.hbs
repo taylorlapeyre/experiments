@@ -1,0 +1,15 @@
+<header>
+  <h1 class="logo">Everlane</h1>
+</header>
+<nav class="main">
+  <ul>
+    <li><a href="#/styles">All Styles</a></li>
+    {{#if currentUser}}
+      <li><a href="javascript:;" class="log-out">Log Out</a> (Currently signed in as {{currentUser.email}})</li>
+    {{else}}
+      <li><a href="javascript:;" class="open-user-modal">Create Account</a></li>
+    {{/if}}
+  </ul>
+</nav>
+
+<div class="page"></div>

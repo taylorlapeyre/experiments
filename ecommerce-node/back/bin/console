@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+repl       = require("repl");
+fs         = require("fs");
+Hapi       = require('hapi');
+Handlebars = require('handlebars');
+mongoose   = require('mongoose');
+routes     = require('../routes');
+
+mongoose.connect('mongodb://localhost/everlane');
+db = mongoose.connection;
+
+// Models
+User = require('../models/user');
+Variant = require('../models/variant');
+Style = require('../models/style');
+Collection = require('../models/collection');
+
+db.once('open', function() {
+  repl.start({
+    prompt: "ecommerce > ",
+    input:  process.stdin,
+    output: process.stdout
+  });
+});
